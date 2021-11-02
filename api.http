@@ -1,0 +1,31 @@
+### Create
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "nome": "Thiago Lázaro 2",
+  "email": "thiagolazaro2@gmail.com",
+  "idade": 32
+}
+
+#### FindAll
+
+Get http://localhost:3000/users
+
+#### FindOne
+
+Get http://localhost:3000/users/1
+
+### Update
+
+PUT http://localhost:3000/users/1
+Content-Type: application/json
+
+{
+  "nome": "Thiago Lázaro"
+}
+
+### Delete
+
+DELETE http://localhost:3000/users/2
